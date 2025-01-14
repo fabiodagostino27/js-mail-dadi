@@ -20,5 +20,11 @@ for (i = 0; i < emails.length; i++) {
     }
 }
 
+if (isYourEmailPresent == 1) {
+    console.log(`La tua mail: ${yourEmail} è presente nella lista. Sei invitato alla festa, buon divertimento!`)
+} else {
+    console.log(`La tua mail: ${yourEmail} non è presente nella lista. Mi dispiace, ma non sei invitato alla festa.` )
+}
+
 
 
