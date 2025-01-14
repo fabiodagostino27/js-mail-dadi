@@ -11,5 +11,14 @@ const emails = [
     "pippo10@gmail.com"
 ]
 
-let yourEmail = prompt("Qual è la tua email?") == 0
+let yourEmail = prompt("Qual è la tua email?");
+let isYourEmailPresent = 0;
+
+for (i = 0; i < emails.length; i++) {
+    if (yourEmail == emails[i]) {
+        isYourEmailPresent = 1;
+    }
+}
+
+
 
